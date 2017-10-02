@@ -56,7 +56,7 @@ public class OmdbClient {
         try {
 
             File f = new File("C:\\Users\\spandem\\cmu\\AppliedDataScience\\Projects\\netflix-prize-data"
-                                      + "\\omdb4369.txt");
+                                      + "\\omdb.txt");
             BufferedWriter output = new BufferedWriter(new FileWriter(f));
             output.append(imdb.getHeaders()+"\n");
             int i=0;
